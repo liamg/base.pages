@@ -1,0 +1,9 @@
+language: ruby
+cache: bundler
+env:
+  global:
+    secure: "c+Bic/1Qnh7g1RSu5OJjb14JJxQIbgJY0ZJjjhNIo0dJ9ZyZY0dIlDGtyu5JOhF7krpAa+ZTFeTulwj4wbDlbXE/QaHpID8a4MVJYFiA6XfPGxquciHGRoZBVKvzrVSwiwCWDyFHBqH86wsvXXVR1NJ8RW5MAjZbSRVjh71aSvVeOcgB+DQZJCuJebCsj2EsP5+CqwQlTPCYpxYEtO4fQn5r/8zPJ+ee+4CHCej3nI9Rou2pHxmnwpUZy31tmC7cltMz3mGthQuIJqux1TbRG6XNtFXI7iBu6jzOFs3ufArWBG14MDrddtk/552uYUK0HJAcUhs9wYYsmHA8P+py402OOER+sTeQ2pP7SY3pUqOdL1NPABjh6am5eUY6DaSI4mPmdiclDf58UWxn979WBF+clQWaqyfVKxTz0IvkGLNB4BCrKRLDxvG0GMdP1jJOBcLuv4ai1o9+Mik2w8Mv6pdh2BsH+VWx8uLef2ESCUS+BcDSk3ZFOkBaJzj8BV0R+sWKrhvUw6odtywIv9vt0HxLKk1Y2+ewytVu9yrqpVJ1ZqKjAq74GO5DAZ5Tm5Hx2pIHqA6ro0Ub3geJ7dYLg3hKZP/UVl/KmujLSZEfPVay+KoJgQFpeO9JazGVjmlIyyUWOnO/Tku4ZigF0Y3r3HquH2sIKIQnw8PWYrifZ7k="
+install:
+  - bundle install
+script:
+  - "make deploy"
