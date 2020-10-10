@@ -7,3 +7,4 @@ install:
   - bundle install
 script:
   - "make deploy"
+mas
