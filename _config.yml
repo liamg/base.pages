@@ -18,53 +18,35 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Liam Galvin
+email: liamgalvin@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal dumping ground of an engineer, hacker, and general code mangler.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.liam-galvin.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: liam_galvin
 github_username:  liamg
 
 # Build settings
 remote_theme: liamg/jekyll-theme-console
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
-
-# Console theme options
-title: hello
 
 header_pages:
   - index.md
   - about.md
 
 style: light # dark (default), light or hacker
-listen_for_clients_preferred_style: false # false (default) or true
+listen_for_clients_preferred_style: false
 
-footer: 'follow me on <a target="_blank" href="https://github.com/liamg">github</a>'
+footer: 'follow me on <a target="_blank" noopener href="https://github.com/liamg">github</a> / <a target="_blank" noopener href="https://twitter.com/liam_galvin">twitter</a>'
 
-# google_analytics: UA-NNNNNNNN-N
+google_analytics: UA-10622185-1
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .idea/*
+  - Makefile
+  - scripts/*
+  - README.md
