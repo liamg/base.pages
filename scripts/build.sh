@@ -17,7 +17,7 @@ function clone_site {
 
 function build {
 	echo "building site"
-	bundle exec jekyll build --lsi
+	JEKYLL_ENV=production bundle exec jekyll build --lsi
 }
 
 function deploy {
