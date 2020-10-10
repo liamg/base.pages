@@ -29,4 +29,7 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # theme
-gem "jekyll-theme-console"
+# gem "jekyll-theme-console"
+# we use remote_theme loading now
+gem "jekyll-remote-theme"
+gem "jekyll-seo-tag"

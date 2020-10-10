@@ -30,9 +30,24 @@ twitter_username: liam_galvin
 github_username:  liamg
 
 # Build settings
-theme: jekyll-theme-console
+remote_theme: liamg/jekyll-theme-console
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+
+# Console theme options
+title: hello
+
+header_pages:
+  - index.md
+  - about.md
+
+style: light # dark (default), light or hacker
+listen_for_clients_preferred_style: false # false (default) or true
+
+footer: 'follow me on <a target="_blank" href="https://github.com/liamg">github</a>'
+
+# google_analytics: UA-NNNNNNNN-N
 
 # Exclude from processing.
 # The following items will not be processed, by default.
