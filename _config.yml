@@ -23,7 +23,7 @@ email: liamgalvin@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal dumping ground of an engineer, hacker, and general code mangler.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://liam-galvin.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.liam-galvin.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: liam_galvin
 github_username:  liamg
 
